@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kotyserializacja.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                x:Name="Cat"
+                Source="dotnet_bot.png"
+                HeightRequest="500"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Wygeneruj zdjęcie kota" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill" />
+            <HorizontalStackLayout>
+                <Entry x:Name="input" WidthRequest="200" Margin="10,0,100,0"></Entry>
+                <Button Text="Wygeneruj kota z tekstem" Clicked="Button_Clicked" WidthRequest="500"></Button>
+            </HorizontalStackLayout>
+            <Button Text="Wygeneruj gif kota" Clicked="Button_Clicked_1"></Button>
+            <HorizontalStackLayout>
+                <Entry x:Name="input2" WidthRequest="200" Margin="10,0,100,0"></Entry>
+                <Button Text="Wygeneruj gif kota z tekstem" Clicked="Button_Clicked_2" WidthRequest="500"></Button>
+            </HorizontalStackLayout>
+            
+        </VerticalStackLayout>
+        
+    </ScrollView>
+
+</ContentPage>

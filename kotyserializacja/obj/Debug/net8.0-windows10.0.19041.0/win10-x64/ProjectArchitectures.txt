@@ -1,0 +1,1 @@
+C:\Users\4m\source\repos\kotyserializacja\kotyserializacja\kotyserializacja.csproj;x64
