@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\4m\source\repos\kotyserializacja\kotyserializacja\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-06T07:24:50.404</Modified>
+      <Modified>2024-11-08T12:29:10.992</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\4m\source\repos\kotyserializacja\kotyserializacja\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\kotyserializacja.dll">
       <PackagePath>kotyserializacja.dll</PackagePath>
-      <Modified>2024-11-06T07:24:50.138</Modified>
+      <Modified>2024-11-08T12:29:10.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\4m\source\repos\kotyserializacja\kotyserializacja\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>kotyserializacja.exe</PackagePath>
-      <Modified>2024-11-06T07:24:50.138</Modified>
+      <Modified>2024-11-08T12:29:10.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\4m\source\repos\kotyserializacja\kotyserializacja\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

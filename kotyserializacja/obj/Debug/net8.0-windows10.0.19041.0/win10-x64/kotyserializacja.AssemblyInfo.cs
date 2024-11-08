@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kotyserializacja")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d0064406fdbd8dc926d508ed2fa93458894eac87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7eb819274d47d828b7ac8b98c34206078056e422")]
 [assembly: System.Reflection.AssemblyProductAttribute("kotyserializacja")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kotyserializacja")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

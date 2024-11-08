@@ -10,25 +10,13 @@
             <Image
                 x:Name="Cat"
                 Source="dotnet_bot.png"
-                HeightRequest="500"
+                HeightRequest="100"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
-            <Button
-                x:Name="CounterBtn"
-                Text="Wygeneruj zdjęcie kota" 
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
-            <HorizontalStackLayout>
-                <Entry x:Name="input" WidthRequest="200" Margin="10,0,100,0"></Entry>
-                <Button Text="Wygeneruj kota z tekstem" Clicked="Button_Clicked" WidthRequest="500"></Button>
-            </HorizontalStackLayout>
-            <Button Text="Wygeneruj gif kota" Clicked="Button_Clicked_1"></Button>
-            <HorizontalStackLayout>
-                <Entry x:Name="input2" WidthRequest="200" Margin="10,0,100,0"></Entry>
-                <Button Text="Wygeneruj gif kota z tekstem" Clicked="Button_Clicked_2" WidthRequest="500"></Button>
-            </HorizontalStackLayout>
+            <Slider x:Name="catSlider" ValueChanged="catSlider_ValueChanged" Maximum="500" >
+                
+            </Slider>
             
         </VerticalStackLayout>
         
